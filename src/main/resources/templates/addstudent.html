@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorate="layout/main.html">
@@ -8,21 +9,16 @@
         <div class="form-group">
           <label>NAME:</label>
           <input type="text" class="form-control" name="student_name" required>
-
           <label>SURNAME:</label>
           <input type="text" class="form-control" name="student_surname" required>
-
           <label>EXAM:</label>
           <input type="number" class="form-control" name="student_exam" value="0" max="100" min="0" required>
-
           <label>MARK:</label>
           <input type="text" class="form-control" name="student_mark" required>
-
           <button class="btn btn-success mt-3">ADD STUDENT</button>
         </div>
       </form>
     </div>
   </div>
 </div>
-</body>
 </html>
